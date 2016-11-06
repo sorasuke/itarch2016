@@ -10,8 +10,53 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.fukaokyouhei.a1107am9_homework.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPersonName"
+        android:text="文字列1"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/String1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="文字列2"
+        android:ems="10"
+        android:layout_below="@+id/String1"
+        android:layout_alignLeft="@+id/String1"
+        android:layout_alignStart="@+id/String1"
+        android:layout_marginTop="22dp"
+        android:id="@+id/String2" />
+
+    <Button
+        android:text="一致判定"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp"
+        android:id="@+id/match"
+        android:layout_below="@+id/String2"
+        android:layout_alignRight="@+id/String2"
+        android:layout_alignEnd="@+id/String2"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_below="@+id/match"
+        android:layout_alignLeft="@+id/match"
+        android:layout_alignStart="@+id/match"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp" />
 </RelativeLayout>
