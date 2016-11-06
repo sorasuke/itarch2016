@@ -36,27 +36,29 @@
         android:layout_marginTop="22dp"
         android:id="@+id/String2" />
 
+    <TextView
+        android:text="文字列判定プログラム"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
     <Button
         android:text="一致判定"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="33dp"
-        android:layout_marginEnd="33dp"
         android:id="@+id/match"
+        android:layout_marginTop="33dp"
         android:layout_below="@+id/String2"
-        android:layout_alignRight="@+id/String2"
-        android:layout_alignEnd="@+id/String2"
-        android:layout_marginTop="32dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="TextView"
+        android:text="判定結果"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/result"
+        android:layout_marginTop="100dp"
         android:layout_below="@+id/match"
-        android:layout_alignLeft="@+id/match"
-        android:layout_alignStart="@+id/match"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="100dp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
